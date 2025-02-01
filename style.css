@@ -1,0 +1,199 @@
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+    font-size: 1vw;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: black;
+}
+
+.brand-name{
+    font-family: "Lobster", serif;
+}
+
+.brand-name span{
+    color: #FF7426;
+}
+
+.navigations{
+    font-family: "Inter", serif;
+    font-size: 16px;
+}
+
+.navigations ul{
+    display: flex;
+    list-style: none;
+}
+
+.navigations li{
+    padding: 0 20px;
+    
+}
+
+.socials li{
+    padding: 0 10px;
+}
+
+.container hr{
+    border: 0.5px solid #D9D9D9;
+}
+
+.hot-reciepe{
+    border-radius: 25px;
+    border: none;
+
+    background: white;
+    width: 10rem;
+
+    box-shadow: 0 15px 20px 0 #0000000D;
+}
+
+.hot-reciepe div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hot-reciepe span{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.hot-reciepe img{
+    height: 24px;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 5rem;
+}
+
+.badge{
+    position: absolute;
+    width: 12%;
+    top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+.hero{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 50%;
+    background-color: #E7FAFE;
+    padding: 3rem;
+
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.hero p{
+    color: #00000099;
+    margin: 1rem 0rem;
+    line-height: 1.6;
+}
+
+.hero h1{
+    font-size: 4rem;
+    font-weight: 1rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner-buttons{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.button-1, .button-2{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 25px;
+    background-color: #0000000D;
+    padding: 10px 20px;
+}
+
+
+.button-1 i, .button-2 i{
+    font-size: 24px;
+}
+
+.button-1 span, .button-2 span{
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.view-reciepe{
+    background-color: black;
+    padding: 1.2rem 2rem;
+    border-radius: 15px;
+}
+
+.view-reciepe span, .view-reciepe i{
+    color: white;
+    padding: 0rem 0.5rem;
+}
+
+.details-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 6rem 0rem 0.5rem 0rem;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.author img{
+    width: 50px;
+}
+
+.author-details{
+    display: flex;
+    flex-direction: column;
+
+    padding: 0rem 1rem;
+}
+
+.author #author-name{
+    font-weight: bold;
+}
+
+.author #publish-date{
+    color: #00000099;
+    padding: 0.5rem 0rem;
+}
+
+.hero-image{
+    background-image: url('./assets/images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.svg');
+    background-size: cover;
+    background-position: 90% center;
+    background-repeat: no-repeat;
+
+    min-width: 50%;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
